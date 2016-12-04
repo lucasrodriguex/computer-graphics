@@ -1,0 +1,16 @@
+size(600,600);
+fill(153);
+rect(50,200,500,350);   // casa
+fill(150, 102, 0);
+triangle(50,200,300,50,550,200);   // telhado
+fill(255);
+rect(85,250,100,225);   // janela esquerda
+rect(415,250,100,225);  // janela direita
+line(85,363,185,363);   // detalhe horizontal janela esquerda
+line(135,250,135,475);  // detalhe vertical janela esquerda
+line(415,363,515,363);  // detalhe horizontal janela direta
+line(465,250,465,475);  // detalhe vertical janela direita
+fill(0);
+rect(250,250,100,300);  // porta
+fill(153);
+ellipse(270,393,15,15); // maçaneta
